@@ -1,0 +1,42 @@
+.todo__add
+    width: 82%
+    display: flex
+    justify-content: center
+    @media screen and (max-width: 550px)
+        width: 90%
+
+.todo__form
+    display: flex
+    margin: 0.5em 0 1em
+    width: 100%
+    justify-content: space-between
+
+.todo__input
+    display: inline-block
+    font-size: inherit
+    font-family: inherit
+    width: 60%
+    padding: 0.7em 1.5em
+    margin-right: 5px
+    border: 1px solid black
+    border-radius: 40px
+    background: #f8f3ee
+    &:focus
+        outline: none
+        background: #fff
+
+.todo__button-submit
+    font-family: inherit
+    font-weight: bold
+    padding: 0.5em 1em
+    border: 1px solid #000
+    border-radius: 50px
+    background: #f8f3ee
+    cursor: pointer
+    &:hover
+        background: #fff
+        transition: all 0.5s
+    &:focus-visible
+        background: #fff
+        outline: none
+
